@@ -5,12 +5,13 @@ class urls(scrapy.Spider):
     global search_area
     global filename 
     
-    search_area="irvine-ca"
-    #search_area="los-angeles-ca"
+    #search_area="irvine-ca"
+    search_area="los-angeles-ca"
     #search_area = "san-diego-ca"
     #search_area = "san-jose-ca"
     #search_area = "lake-forest-ca"
     #search_area = "90025"
+    #search_area = "pasadena-ca"
     filename = 'data/'+search_area +'-href.txt'
   
     if os.path.isfile('data/tmp.txt'):
