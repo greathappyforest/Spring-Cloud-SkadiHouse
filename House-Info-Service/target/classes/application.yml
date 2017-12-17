@@ -3,3 +3,10 @@ server:
 spring:
   application:
     name: house-info-service
+  data:
+      mongodb:
+          uri: mongodb://localhost:27017
+          database: zillow_house_info
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true

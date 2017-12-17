@@ -1,0 +1,9 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: house-info-disribution-service
+  cloud:
+    stream:
+      bindings:
+        output: distributedInfos
