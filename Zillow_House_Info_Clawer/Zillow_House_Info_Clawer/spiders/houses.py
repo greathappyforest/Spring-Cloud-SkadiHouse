@@ -11,7 +11,12 @@ class houses(scrapy.Spider):
     #search_area = "san-jose-ca"
     #search_area = "lake-forest-ca"
     #search_area = "pasadena-ca"
-    search_area="los-angeles-ca"
+    #search_area="los-angeles-ca"
+    #search_area = "fountain-valley-ca"
+    #search_area = "tustin-ca"
+    #search_area = "orange-ca"
+    search_area = "garden-grove-ca"
+
     global filename
     global data
     data = ""

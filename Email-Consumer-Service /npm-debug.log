@@ -1,0 +1,1063 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nodemon',
+1 verbose cli   '--save' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json Email-Consumer-Service@0.0.0 No description
+5 warn package.json Email-Consumer-Service@0.0.0 No repository field.
+6 warn package.json Email-Consumer-Service@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'nodemon', null ]
+9 verbose cache add name=undefined spec="nodemon" args=["nodemon",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'nodemon',
+10 verbose parsed url   path: 'nodemon',
+10 verbose parsed url   href: 'nodemon' }
+11 silly lockFile 1625b929-nodemon nodemon
+12 verbose lock nodemon /home/vagrant/.npm/1625b929-nodemon.lock
+13 silly lockFile 1625b929-nodemon nodemon
+14 silly lockFile 1625b929-nodemon nodemon
+15 verbose addNamed [ 'nodemon', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 4f5e51c6-nodemon nodemon@
+18 verbose lock nodemon@ /home/vagrant/.npm/4f5e51c6-nodemon.lock
+19 silly addNameRange { name: 'nodemon', range: '*', hasData: false }
+20 verbose registry.get nodemon not expired, no request
+21 silly addNameRange number 2 { name: 'nodemon', range: '*', hasData: true }
+22 silly addNameRange versions [ 'nodemon',
+22 silly addNameRange   [ '0.1.4',
+22 silly addNameRange     '0.1.5',
+22 silly addNameRange     '0.1.6',
+22 silly addNameRange     '0.1.7',
+22 silly addNameRange     '0.1.8',
+22 silly addNameRange     '0.2.0',
+22 silly addNameRange     '0.2.1',
+22 silly addNameRange     '0.2.2',
+22 silly addNameRange     '0.3.0',
+22 silly addNameRange     '0.3.1',
+22 silly addNameRange     '0.3.2',
+22 silly addNameRange     '0.4.0',
+22 silly addNameRange     '0.4.1',
+22 silly addNameRange     '0.5.0',
+22 silly addNameRange     '0.5.1',
+22 silly addNameRange     '0.5.2',
+22 silly addNameRange     '0.5.3',
+22 silly addNameRange     '0.5.4',
+22 silly addNameRange     '0.5.5',
+22 silly addNameRange     '0.5.6',
+22 silly addNameRange     '0.5.7',
+22 silly addNameRange     '0.6.0',
+22 silly addNameRange     '0.6.1',
+22 silly addNameRange     '0.6.2',
+22 silly addNameRange     '0.6.3',
+22 silly addNameRange     '0.6.4',
+22 silly addNameRange     '0.6.5',
+22 silly addNameRange     '0.6.6',
+22 silly addNameRange     '0.6.7',
+22 silly addNameRange     '0.6.8',
+22 silly addNameRange     '0.6.9',
+22 silly addNameRange     '0.6.10',
+22 silly addNameRange     '0.6.11',
+22 silly addNameRange     '0.6.12',
+22 silly addNameRange     '0.6.13',
+22 silly addNameRange     '0.6.14',
+22 silly addNameRange     '0.6.15',
+22 silly addNameRange     '0.6.16',
+22 silly addNameRange     '0.6.17',
+22 silly addNameRange     '0.6.18',
+22 silly addNameRange     '0.6.19',
+22 silly addNameRange     '0.6.20',
+22 silly addNameRange     '0.6.21',
+22 silly addNameRange     '0.6.22',
+22 silly addNameRange     '0.6.23',
+22 silly addNameRange     '0.7.0',
+22 silly addNameRange     '0.7.1',
+22 silly addNameRange     '0.7.2',
+22 silly addNameRange     '0.7.3',
+22 silly addNameRange     '0.7.4',
+22 silly addNameRange     '0.7.5',
+22 silly addNameRange     '0.7.6',
+22 silly addNameRange     '0.7.7',
+22 silly addNameRange     '0.7.8',
+22 silly addNameRange     '0.7.10',
+22 silly addNameRange     '0.9.0',
+22 silly addNameRange     '0.9.1',
+22 silly addNameRange     '0.9.2',
+22 silly addNameRange     '0.9.3',
+22 silly addNameRange     '0.9.5',
+22 silly addNameRange     '0.9.6',
+22 silly addNameRange     '0.9.7',
+22 silly addNameRange     '0.9.10',
+22 silly addNameRange     '0.9.11',
+22 silly addNameRange     '0.9.12',
+22 silly addNameRange     '0.9.14',
+22 silly addNameRange     '0.9.16',
+22 silly addNameRange     '0.9.17',
+22 silly addNameRange     '1.0.0',
+22 silly addNameRange     '1.0.1',
+22 silly addNameRange     '1.0.2',
+22 silly addNameRange     '1.0.2-rc',
+22 silly addNameRange     '0.6.10-a',
+22 silly addNameRange     '1.0.2-rc3',
+22 silly addNameRange     '1.0.2-rc4',
+22 silly addNameRange     '1.0.3',
+22 silly addNameRange     '1.0.4',
+22 silly addNameRange     '1.0.5',
+22 silly addNameRange     '1.0.6',
+22 silly addNameRange     '1.0.7',
+22 silly addNameRange     '1.0.8',
+22 silly addNameRange     '1.0.9',
+22 silly addNameRange     '1.0.10',
+22 silly addNameRange     '1.0.11',
+22 silly addNameRange     '1.0.12',
+22 silly addNameRange     '1.0.13',
+22 silly addNameRange     '1.0.14',
+22 silly addNameRange     '1.0.15',
+22 silly addNameRange     '1.0.16',
+22 silly addNameRange     '1.0.17-rc1',
+22 silly addNameRange     '1.0.17-rc2',
+22 silly addNameRange     '1.0.17',
+22 silly addNameRange     '1.0.18',
+22 silly addNameRange     '1.0.19',
+22 silly addNameRange     '1.0.20',
+22 silly addNameRange     '1.1.0-alpha',
+22 silly addNameRange     '1.1.0',
+22 silly addNameRange     '1.1.1',
+22 silly addNameRange     '1.2.0',
+22 silly addNameRange     '1.2.1',
+22 silly addNameRange     '1.3.0-0',
+22 silly addNameRange     '1.3.0-1',
+22 silly addNameRange     '1.3.0-2',
+22 silly addNameRange     '1.3.0-3',
+22 silly addNameRange     '1.3.0-4',
+22 silly addNameRange     '1.3.0-5',
+22 silly addNameRange     '1.3.0-6',
+22 silly addNameRange     '1.3.0-7',
+22 silly addNameRange     '1.3.0',
+22 silly addNameRange     '1.3.1',
+22 silly addNameRange     '1.3.2',
+22 silly addNameRange     '1.3.3',
+22 silly addNameRange     '1.3.5',
+22 silly addNameRange     '1.3.6',
+22 silly addNameRange     '1.3.7',
+22 silly addNameRange     '1.3.8',
+22 silly addNameRange     '1.4.0',
+22 silly addNameRange     '1.4.1',
+22 silly addNameRange     '1.5.0-alpha1',
+22 silly addNameRange     '1.5.0-alpha2',
+22 silly addNameRange     '1.5.0-alpha3',
+22 silly addNameRange     '1.5.0-alpha4',
+22 silly addNameRange     '1.4.2',
+22 silly addNameRange     '1.5.0',
+22 silly addNameRange     '1.5.1',
+22 silly addNameRange     '1.6.0',
+22 silly addNameRange     '1.6.1',
+22 silly addNameRange     '1.7.0',
+22 silly addNameRange     '1.7.1',
+22 silly addNameRange     '1.7.2',
+22 silly addNameRange     '1.7.3',
+22 silly addNameRange     '1.8.0',
+22 silly addNameRange     '1.8.1',
+22 silly addNameRange     '1.9.0',
+22 silly addNameRange     '1.9.1',
+22 silly addNameRange     '1.9.2',
+22 silly addNameRange     '1.10.0',
+22 silly addNameRange     '1.10.1',
+22 silly addNameRange     '1.10.2',
+22 silly addNameRange     '1.11.0',
+22 silly addNameRange     '1.11.1',
+22 silly addNameRange     '1.12.0',
+22 silly addNameRange     '1.12.1',
+22 silly addNameRange     '1.12.2',
+22 silly addNameRange     '1.12.3',
+22 silly addNameRange     '1.12.4',
+22 silly addNameRange     '1.12.5',
+22 silly addNameRange     '1.12.6',
+22 silly addNameRange     '1.12.7',
+22 silly addNameRange     '1.13.0',
+22 silly addNameRange     '1.13.1',
+22 silly addNameRange     '1.13.2',
+22 silly addNameRange     '1.13.3' ] ]
+23 verbose addNamed [ 'nodemon', '1.13.3' ]
+24 verbose addNamed [ '1.13.3', '1.13.3' ]
+25 silly lockFile 5563d606-nodemon-1-13-3 nodemon@1.13.3
+26 verbose lock nodemon@1.13.3 /home/vagrant/.npm/5563d606-nodemon-1-13-3.lock
+27 silly lockFile 5563d606-nodemon-1-13-3 nodemon@1.13.3
+28 silly lockFile 5563d606-nodemon-1-13-3 nodemon@1.13.3
+29 silly lockFile 4f5e51c6-nodemon nodemon@
+30 silly lockFile 4f5e51c6-nodemon nodemon@
+31 silly resolved [ { name: 'nodemon',
+31 silly resolved     homepage: 'http://nodemon.io',
+31 silly resolved     author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+31 silly resolved     bin: { nodemon: './bin/nodemon.js' },
+31 silly resolved     engines: { node: '>=4' },
+31 silly resolved     repository: { type: 'git', url: 'https://github.com/remy/nodemon.git' },
+31 silly resolved     description: 'Simple monitor script for use during development of a node.js app.',
+31 silly resolved     keywords:
+31 silly resolved      [ 'monitor',
+31 silly resolved        'development',
+31 silly resolved        'restart',
+31 silly resolved        'autoload',
+31 silly resolved        'reload',
+31 silly resolved        'terminal' ],
+31 silly resolved     license: 'MIT',
+31 silly resolved     main: './lib/nodemon',
+31 silly resolved     scripts:
+31 silly resolved      { commitmsg: 'commitlint -e',
+31 silly resolved        coverage: 'istanbul cover _mocha -- --timeout 30000 --ui bdd --reporter list test/**/*.test.js',
+31 silly resolved        lint: 'jscs lib/**/*.js -v',
+31 silly resolved        ':spec': 'node_modules/.bin/mocha --timeout 30000 --ui bdd test/**/*.test.js',
+31 silly resolved        test: 'npm run lint && npm run spec',
+31 silly resolved        spec: 'for FILE in test/**/*.test.js; do echo $FILE; TEST=1 mocha --exit --timeout 30000 $FILE; if [ $? -ne 0 ]; then exit 1; fi; sleep 1; done',
+31 silly resolved        postspec: 'npm run clean',
+31 silly resolved        clean: 'rm -rf test/fixtures/test*.js test/fixtures/test*.md',
+31 silly resolved        web: 'node web',
+31 silly resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post',
+31 silly resolved        postinstall: 'node -e "console.log(\'\\u001b[32mLove nodemon? You can now support the project via the open collective:\\u001b[22m\\u001b[39m\\n > \\u001b[96m\\u001b[1mhttps://opencollective.com/nodemon/donate\\u001b[0m\\n\')"' },
+31 silly resolved     devDependencies:
+31 silly resolved      { '@commitlint/cli': '^3.1.3',
+31 silly resolved        '@commitlint/config-angular': '^3.1.1',
+31 silly resolved        async: '1.4.2',
+31 silly resolved        'coffee-script': '~1.7.1',
+31 silly resolved        husky: '^0.14.3',
+31 silly resolved        istanbul: '^0.4.5',
+31 silly resolved        jscs: '^3.0.7',
+31 silly resolved        mocha: '^2.3.3',
+31 silly resolved        'semantic-release': '^8.2.0',
+31 silly resolved        should: '~4.0.0' },
+31 silly resolved     dependencies:
+31 silly resolved      { '@remy/pstree': '^1.1.0',
+31 silly resolved        chokidar: '^1.7.0',
+31 silly resolved        debug: '^2.6.8',
+31 silly resolved        'es6-promise': '^3.3.1',
+31 silly resolved        'ignore-by-default': '^1.0.1',
+31 silly resolved        'lodash.defaults': '^3.1.2',
+31 silly resolved        minimatch: '^3.0.4',
+31 silly resolved        touch: '^3.1.0',
+31 silly resolved        undefsafe: '0.0.3',
+31 silly resolved        'update-notifier': '^2.3.0' },
+31 silly resolved     version: '1.13.3',
+31 silly resolved     readme: '![nodemon logo](http://nodemon.io/nodemon.svg)\n\n# nodemon\n\nFor use during development of a node.js based application.\n\nnodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application.\n\nnodemon does **not** require *any* changes to your code or method of development. nodemon simply wraps your node application and keeps an eye on any files that have changed. Remember that nodemon is a replacement wrapper for `node`, think of it as replacing the word "node" on the command line when you run your script.\n\n[![NPM version](https://badge.fury.io/js/nodemon.svg)](https://npmjs.org/package/nodemon)\n[![Travis Status](https://travis-ci.org/remy/nodemon.svg?branch=master)](https://travis-ci.org/remy/nodemon) [![Backers on Open Collective](https://opencollective.com/nodemon/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/nodemon/sponsors/badge.svg)](#sponsors)\n\n<a href="https://app.codesponsor.io/link/wnz2te8CdfKZ8wMjGUpi8EZG/remy/nodemon" rel="nofollow" target="_blank"><img src="https://app.codesponsor.io/embed/wnz2te8CdfKZ8wMjGUpi8EZG/remy/nodemon.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>\n\n# Installation\n\nEither through cloning with git or by using [npm](http://npmjs.org) (the recommended way):\n\n```\nnpm install -g nodemon\n```\n\nAnd nodemon will be installed globally to your system path.\n\nYou can also install nodemon as a developement dependency:\n\n```\nnpm install --save-dev nodemon\n```\n\nWith a local installation, nodemon will not be available in your system path. Instead, the local installation of nodemon can be run by calling it from within an npm script (such as `npm start`) or using `npx nodemon`.\n\n# Usage\n\nnodemon wraps your application, so you can pass all the arguments you would normally pass to your app:\n\n```\nnodemon [your node app]\n```\n\nFor CLI options, use the `-h` (or `--help`) argument:\n\n```\nnodemon -h\n```\n\nUsing nodemon is simple, if my application accepted a host and port as the arguments, I would start it as so:\n\n```\nnodemon ./server.js localhost 8080\n```\n\nAny output from this script is prefixed with `[nodemon]`, otherwise all output from your application, errors included, will be echoed out as expected.\n\nIf no script is given, nodemon will test for a `package.json` file and if found, will run the file associated with the *main* property ([ref](https://github.com/remy/nodemon/issues/14)).\n\nYou can also pass the `inspect` flag to node through the command line as you would normally:\n\n```\nnodemon --inspect ./server.js 80\n```\n\nIf you have a `package.json` file for your app, you can omit the main script entirely and nodemon will read the `package.json` for the `main` property and use that value as the app.\n\nnodemon will also search for the `scripts.start` property in `package.json` (as of nodemon 1.1.x).\n\nAlso check out the [FAQ](https://github.com/remy/nodemon/blob/master/faq.md) or [issues](https://github.com/remy/nodemon/issues) for nodemon.\n\n## Automatic re-running\n\nnodemon was originally written to restart hanging processes such as web servers, but now supports apps that cleanly exit. If your script exits cleanly, nodemon will continue to monitor the directory (or directories) and restart the script if there are any changes.\n\n## Manual restarting\n\nWhilst nodemon is running, if you need to manually restart your application, instead of stopping and restart nodemon, you can simply type `rs` with a carriage return, and nodemon will restart your process.\n\n## Config files\n\nnodemon supports local and global configuration files. These are usually named `nodemon.json` and can be located in the current working directory or in your home directory. An alternative local configuration file can be specified with the `--config <file>` option.\n\nThe specificity is as follows, so that a command line argument will always override the config file settings:\n\n- command line arguments\n- local config\n- global config\n\nA config file can take any of the command line arguments as JSON key values, for example:\n\n```json\n{\n  "verbose": true,\n  "ignore": ["*.test.js", "fixtures/*"],\n  "execMap": {\n    "rb": "ruby",\n    "pde": "processing --sketch={{pwd}} --run"\n  }\n}\n```\n\nThe above `nodemon.json` file might be my global config so that I have support for ruby files and processing files, and I can simply run `nodemon demo.pde` and nodemon will automatically know how to run the script even though out of the box support for processing scripts.\n\nA further example of options can be seen in [sample-nodemon.md](https://github.com/remy/nodemon/blob/master/doc/sample-nodemon.md)\n\n### package.json\n\nIf you want to keep all your package configurations in one place, nodemon supports using `package.json` for configuration.\nSimply specify the config in the same format as you would for a config file but under `nodemonConfig` in the `package.json` file, for example, take the following `package.json`:\n\n```json\n{\n  "name": "nodemon",\n  "homepage": "http://nodemon.io",\n  "...": "... other standard package.json values",\n  "nodemonConfig": {\n    "ignore": ["test/*", "docs/*"],\n"delay": "2500"\n  }\n}\n```\n\nNote that if you specify a `--config` file or provide a local `nodemon.json` any `package.json` config is ignored.\n\n*This section needs better documentation, but for now you can also see `nodemon --help config` ([also here](https://github.com/remy/nodemon/blob/master/doc/cli/config.txt))*.\n\n## Using nodemon as a module\n\nPlease see [doc/requireable.md](doc/requireable.md)\n\n## Running non-node scripts\n\nnodemon can also be used to execute and monitor other programs. nodemon will read the file extension of the script being run and monitor that extension instead of .js if there\'s no `nodemon.json`:\n\n```\nnodemon --exec "python -v" ./app.py\n```\n\nNow nodemon will run `app.py` with python in verbose mode (note that if you\'re not passing args to the exec program, you don\'t need the quotes), and look for new or modified files with the `.py` extension.\n\n### Default executables\n\nUsing the `nodemon.json` config file, you can define your own default executables using the `execMap` property. This is particularly useful if you\'re working with a language that isn\'t supported by default by nodemon.\n\nTo add support for nodemon to know about the .pl extension (for Perl), the nodemon.json file would add:\n\n```json\n{\n  "execMap": {\n    "pl": "perl"\n  }\n}\n```\n\nNow running the following, nodemon will know to use `perl` as the executable:\n\n```\nnodemon script.pl\n```\n\nIt\'s generally recommended to use the global `nodemon.json` to add your own `execMap` options. However, if there\'s a common default that\'s missing, this can be merged in to the project so that nodemon supports it by default, by changing [default.js](https://github.com/remy/nodemon/blob/master/lib/config/defaults.js) and sending a pull request.\n\n## Monitoring multiple directories\n\nBy default nodemon monitors the current working directory. If you want to take control of that option, use the `--watch` option to add specific paths:\n\n```\nnodemon --watch app --watch libs app/server.js\n```\n\nNow nodemon will only restart if there are changes in the `./app` or `./libs` directory. By default nodemon will traverse sub-directories, so there\'s no need in explicitly including sub-directories.\n\nDon\'t use unix globbing to pass multiple directories, e.g `--watch ./lib/*`, it won\'t work. You need a `--watch` flag per directory watched.\n\n## Specifying extension watch list\n\nBy default, nodemon looks for files with the `.js`, `.mjs`, `.coffee`, `.litcoffee`, and `.json` extensions. If you use the `--exec` option and monitor `app.py` nodemon will monitor files with the extension of `.py`. However, you can specify your own list with the `-e` (or `--ext`) switch like so:\n\n```\nnodemon -e js,jade\n```\n\nNow nodemon will restart on any changes to files in the directory (or subdirectories) with the extensions .js, .jade.\n\n## Ignoring files\n\nBy default, nodemon will only restart when a `.js` JavaScript file changes. In some cases you will want to ignore some specific files, directories or file patterns, to prevent nodemon from prematurely restarting your application.\n\nThis can be done via the command line:\n\n```\nnodemon --ignore lib/ --ignore tests/\n```\n\nOr specific files can be ignored:\n\n```\nnodemon --ignore lib/app.js\n```\n\nPatterns can also be ignored (but be sure to quote the arguments):\n\n```\nnodemon --ignore \'lib/*.js\'\n```\n\nNote that by default, nodemon will ignore the `.git`, `node_modules`, `bower_components`, `.nyc_output`, `coverage` and `.sass-cache` directories and *add* your ignored patterns to the list. If you want to indeed watch a directory like `node_modules`, you need to [override the underlying default ignore rules](https://github.com/remy/nodemon/blob/master/faq.md#overriding-the-underlying-default-ignore-rules).\n\n## Application isn\'t restarting\n\nIn some networked environments (such as a container running nodemon reading across a mounted drive), you will need to use the `legacyWatch: true` which enables Chokidar\'s polling.\n\nVia the CLI, use either `--legacy-watch` or `-L` for short:\n\n```\nnodemon -L\n```\n\nThough this should be a last resort as it will poll every file it can find.\n\n## Delaying restarting\n\nIn some situations, you may want to wait until a number of files have changed. The timeout before checking for new file changes is 1 second. If you\'re uploading a number of files and it\'s taking some number of seconds, this could cause your app to restart multiple times unnecessarily.\n\nTo add an extra throttle, or delay restarting, use the `--delay` command:\n\n```\nnodemon --delay 10 server.js\n```\n\nFor more precision, milliseconds can be specified.  Either as a float:\n\n```\nnodemon --delay 2.5 server.js\n```\n\nOr using the time specifier (ms):\n\n```\nnodemon --delay 2500ms server.js\n```\n\nThe delay figure is number of seconds (or milliseconds, if specified) to delay before restarting. So nodemon will only restart your app the given number of seconds after the *last* file change.\n\nIf you are setting this value in `nodemon.json`, the value will always be interpretted in milliseconds. E.g., the following are equivalent:\n\n```\nnodemon --delay 2.5\n\n{\n  "delay": "2500"\n}\n```\n\n## Controlling shutdown of your script\n\nnodemon sends a kill signal to your application when it sees a file update. If you need to clean up on shutdown inside your script you can capture the kill signal and handle it yourself.\n\nThe following example will listen once for the `SIGUSR2` signal (used by nodemon to restart), run the clean up process and then kill itself for nodemon to continue control:\n\n```js\nprocess.once(\'SIGUSR2\', function () {\n  gracefulShutdown(function () {\n    process.kill(process.pid, \'SIGUSR2\');\n  });\n});\n```\n\nNote that the `process.kill` is *only* called once your shutdown jobs are complete. Hat tip to [Benjie Gillam](http://www.benjiegillam.com/2011/08/node-js-clean-restart-and-faster-development-with-nodemon/) for writing this technique up.\n\n## Triggering events when nodemon state changes\n\nIf you want growl like notifications when nodemon restarts or to trigger an action when an event happens, then you can either `require` nodemon or simply add event actions to your `nodemon.json` file.\n\nFor example, to trigger a notification on a Mac when nodemon restarts, `nodemon.json` looks like this:\n\n```json\n{\n  "events": {\n    "restart": "osascript -e \'display notification \\"app restarted\\" with title \\"nodemon\\"\'"\n  }\n}\n```\n\nA full list of available events is listed on the [event states wiki](https://github.com/remy/nodemon/wiki/Events#states). Note that you can bind to both states and messages.\n\n## Pipe output to somewhere else\n\n```js\nnodemon({\n  script: ...,\n  stdout: false // important: this tells nodemon not to output to console\n}).on(\'readable\', function() { // the `readable` event indicates that data is ready to pick up\n  this.stdout.pipe(fs.createWriteStream(\'output.txt\'));\n  this.stderr.pipe(fs.createWriteStream(\'err.txt\'));\n});\n```\n\n## Using nodemon in your gulp workflow\n\nCheck out the [gulp-nodemon](https://github.com/JacksonGariety/gulp-nodemon) plugin to integrate nodemon with the rest of your project\'s gulp workflow.\n\n## Using nodemon in your Grunt workflow\n\nCheck out the [grunt-nodemon](https://github.com/ChrisWren/grunt-nodemon) plugin to integrate nodemon with the rest of your project\'s grunt workflow.\n\n## Pronunciation\n\n> nodemon, is it pronounced: node-mon, no-demon or node-e-mon (like pokémon)?\n\nWell...I\'ve been asked this many times before. I like that I\'ve been asked this before. There\'s been bets as to which one it actually is.\n\nThe answer is simple, but possibly frustrating. I\'m not saying (how I pronounce it). It\'s up to you to call it as you like. All answers are correct :)\n\n## Design principles\n\n- Less flags is better\n- Works across all platforms\n- Less features\n- Let individuals build on top of nodemon\n- Offer all CLI functionality as an API\n- Contributions must have and pass tests\n\nNodemon is not perfect, and CLI arguments has sprawled beyond where I\'m completely happy, but perhaps it can be reduced a little one day.\n\n## FAQ\n\nSee the [FAQ](https://github.com/remy/nodemon/blob/master/faq.md) and please add your own questions if you think they would help others.\n\n## Contributors\n\nThis project exists thanks to all the people who [contribute](https://github.com/remy/nodemon/blob/master/.github/CONTRIBUTING.md).\n[![nodemon contributors](https://opencollective.com/nodemon/contributors.svg?width=890)](https://opencollective.com/nodemon#backer)\n\n\n## Backers\n\nThank you to all [our backers](https://opencollective.com/nodemon#backer)! 🙏\n\n[![nodemon backers](https://opencollective.com/nodemon/backers.svg?width=890)](https://opencollective.com/nodemon#backers)\n\n## Sponsors\n\nSupport this project by becoming a sponsor. Your logo will show up here with a link to your website. [Sponsor this project today ❤️](https://opencollective.com/nodemon#sponsor)\n\n# License\n\nMIT [http://rem.mit-license.org](http://rem.mit-license.org)\n',
+31 silly resolved     readmeFilename: 'README.md',
+31 silly resolved     bugs: { url: 'https://github.com/remy/nodemon/issues' },
+31 silly resolved     _id: 'nodemon@1.13.3',
+31 silly resolved     _from: 'nodemon@' } ]
+32 info install nodemon@1.13.3 into /home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service
+33 info installOne nodemon@1.13.3
+34 warn engine nodemon@1.13.3: wanted: {"node":">=4"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+35 info /home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/nodemon unbuild
+36 info preuninstall nodemon@1.13.3
+37 info uninstall nodemon@1.13.3
+38 verbose true,/home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules,/home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules unbuild nodemon@1.13.3
+39 verbose /home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/.bin,[object Object] binRoot
+40 info postuninstall nodemon@1.13.3
+41 verbose tar unpack /home/vagrant/.npm/nodemon/1.13.3/package.tgz
+42 silly lockFile 571955da-mer-Service-node-modules-nodemon tar:///home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/nodemon
+43 verbose lock tar:///home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/nodemon /home/vagrant/.npm/571955da-mer-Service-node-modules-nodemon.lock
+44 silly lockFile 1449aebe-t-npm-nodemon-1-13-3-package-tgz tar:///home/vagrant/.npm/nodemon/1.13.3/package.tgz
+45 verbose lock tar:///home/vagrant/.npm/nodemon/1.13.3/package.tgz /home/vagrant/.npm/1449aebe-t-npm-nodemon-1-13-3-package-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry commitlint.config.js
+50 silly gunzTarPerm extractEntry .travis.yml
+51 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+52 silly gunzTarPerm extractEntry .github/CONTRIBUTING.md
+53 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+54 silly gunzTarPerm extractEntry .github/stale.yml
+55 silly gunzTarPerm extractEntry .jscsrc
+56 silly gunzTarPerm extractEntry .jshintrc
+57 silly gunzTarPerm extractEntry doc/arch.md
+58 silly gunzTarPerm extractEntry doc/cli/authors.txt
+59 silly gunzTarPerm extractEntry doc/cli/config.txt
+60 silly gunzTarPerm extractEntry doc/cli/help.txt
+61 silly gunzTarPerm extractEntry doc/cli/logo.txt
+62 silly gunzTarPerm extractEntry doc/cli/options.txt
+63 silly gunzTarPerm extractEntry doc/cli/topics.txt
+64 silly gunzTarPerm extractEntry doc/cli/usage.txt
+65 silly gunzTarPerm extractEntry doc/cli/whoami.txt
+66 silly gunzTarPerm extractEntry doc/events.md
+67 silly gunzTarPerm extractEntry doc/option-parsing-logic.md
+68 silly gunzTarPerm extractEntry doc/requireable.md
+69 silly gunzTarPerm extractEntry doc/rules.md
+70 silly gunzTarPerm extractEntry doc/sample-nodemon.md
+71 silly gunzTarPerm extractEntry docs/index.js
+72 silly gunzTarPerm extractEntry docs/index.html
+73 silly gunzTarPerm extractEntry docs/nodemon.svg
+74 silly gunzTarPerm extractEntry faq.md
+75 silly gunzTarPerm extractEntry lib/index.js
+76 silly gunzTarPerm extractEntry lib/nodemon.js
+77 silly gunzTarPerm extractEntry lib/spawn.js
+78 silly gunzTarPerm extractEntry lib/version.js
+79 silly gunzTarPerm extractEntry lib/cli/index.js
+80 silly gunzTarPerm extractEntry lib/cli/parse.js
+81 silly gunzTarPerm extractEntry lib/config/command.js
+82 silly gunzTarPerm extractEntry lib/config/defaults.js
+83 silly gunzTarPerm extractEntry lib/config/exec.js
+84 silly gunzTarPerm extractEntry lib/config/index.js
+85 silly gunzTarPerm extractEntry lib/config/load.js
+86 silly gunzTarPerm extractEntry lib/help/index.js
+87 silly gunzTarPerm extractEntry lib/monitor/index.js
+88 silly gunzTarPerm extractEntry lib/monitor/match.js
+89 silly gunzTarPerm extractEntry lib/monitor/run.js
+90 silly gunzTarPerm extractEntry lib/monitor/signals.js
+91 silly gunzTarPerm extractEntry lib/monitor/watch.js
+92 silly gunzTarPerm extractEntry lib/rules/add.js
+93 silly gunzTarPerm extractEntry lib/rules/index.js
+94 silly gunzTarPerm extractEntry lib/rules/parse.js
+95 silly gunzTarPerm extractEntry lib/utils/bus.js
+96 silly gunzTarPerm extractEntry lib/utils/clone.js
+97 silly gunzTarPerm extractEntry lib/utils/colour.js
+98 silly gunzTarPerm extractEntry lib/utils/index.js
+99 silly gunzTarPerm extractEntry lib/utils/log.js
+100 silly gunzTarPerm extractEntry lib/utils/merge.js
+101 silly gunzTarPerm extractEntry bin/nodemon.js
+102 silly lockFile 571955da-mer-Service-node-modules-nodemon tar:///home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/nodemon
+103 silly lockFile 571955da-mer-Service-node-modules-nodemon tar:///home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service /node_modules/nodemon
+104 silly lockFile 1449aebe-t-npm-nodemon-1-13-3-package-tgz tar:///home/vagrant/.npm/nodemon/1.13.3/package.tgz
+105 silly lockFile 1449aebe-t-npm-nodemon-1-13-3-package-tgz tar:///home/vagrant/.npm/nodemon/1.13.3/package.tgz
+106 info preinstall nodemon@1.13.3
+107 verbose readDependencies using package.json deps
+108 verbose readDependencies using package.json deps
+109 verbose cache add [ '@remy/pstree@^1.1.0', null ]
+110 verbose cache add name=undefined spec="@remy/pstree@^1.1.0" args=["@remy/pstree@^1.1.0",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '@remy/pstree@^1.1.0',
+111 verbose parsed url   path: '@remy/pstree@^1.1.0',
+111 verbose parsed url   href: '@remy/pstree@^1.1.0' }
+112 verbose cache add name="" spec="remy/pstree@^1.1.0" args=["","remy/pstree@^1.1.0"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'remy/pstree@^1.1.0',
+113 verbose parsed url   path: 'remy/pstree@^1.1.0',
+113 verbose parsed url   href: 'remy/pstree@^1.1.0' }
+114 verbose cache add name="remy/pstree" spec="^1.1.0" args=["remy/pstree","^1.1.0"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '^1.1.0',
+115 verbose parsed url   path: '^1.1.0',
+115 verbose parsed url   href: '^1.1.0' }
+116 verbose addNamed [ 'remy/pstree', '^1.1.0' ]
+117 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+118 silly lockFile 68346dd5-remy-pstree-1-1-0 remy/pstree@^1.1.0
+119 verbose lock remy/pstree@^1.1.0 /home/vagrant/.npm/68346dd5-remy-pstree-1-1-0.lock
+120 verbose cache add [ 'chokidar@^1.7.0', null ]
+121 verbose cache add name=undefined spec="chokidar@^1.7.0" args=["chokidar@^1.7.0",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'chokidar@^1.7.0',
+122 verbose parsed url   path: 'chokidar@^1.7.0',
+122 verbose parsed url   href: 'chokidar@^1.7.0' }
+123 verbose cache add name="chokidar" spec="^1.7.0" args=["chokidar","^1.7.0"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '^1.7.0',
+124 verbose parsed url   path: '^1.7.0',
+124 verbose parsed url   href: '^1.7.0' }
+125 verbose addNamed [ 'chokidar', '^1.7.0' ]
+126 verbose addNamed [ null, '>=1.7.0-0 <2.0.0-0' ]
+127 silly lockFile 442979f5-chokidar-1-7-0 chokidar@^1.7.0
+128 verbose lock chokidar@^1.7.0 /home/vagrant/.npm/442979f5-chokidar-1-7-0.lock
+129 verbose cache add [ 'debug@^2.6.8', null ]
+130 verbose cache add name=undefined spec="debug@^2.6.8" args=["debug@^2.6.8",null]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: 'debug@^2.6.8',
+131 verbose parsed url   path: 'debug@^2.6.8',
+131 verbose parsed url   href: 'debug@^2.6.8' }
+132 verbose cache add name="debug" spec="^2.6.8" args=["debug","^2.6.8"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '^2.6.8',
+133 verbose parsed url   path: '^2.6.8',
+133 verbose parsed url   href: '^2.6.8' }
+134 verbose addNamed [ 'debug', '^2.6.8' ]
+135 verbose addNamed [ null, '>=2.6.8-0 <3.0.0-0' ]
+136 silly lockFile 6030e63d-debug-2-6-8 debug@^2.6.8
+137 verbose lock debug@^2.6.8 /home/vagrant/.npm/6030e63d-debug-2-6-8.lock
+138 verbose cache add [ 'es6-promise@^3.3.1', null ]
+139 verbose cache add name=undefined spec="es6-promise@^3.3.1" args=["es6-promise@^3.3.1",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'es6-promise@^3.3.1',
+140 verbose parsed url   path: 'es6-promise@^3.3.1',
+140 verbose parsed url   href: 'es6-promise@^3.3.1' }
+141 verbose cache add name="es6-promise" spec="^3.3.1" args=["es6-promise","^3.3.1"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '^3.3.1',
+142 verbose parsed url   path: '^3.3.1',
+142 verbose parsed url   href: '^3.3.1' }
+143 verbose addNamed [ 'es6-promise', '^3.3.1' ]
+144 verbose addNamed [ null, '>=3.3.1-0 <4.0.0-0' ]
+145 silly lockFile 7c143b3c-es6-promise-3-3-1 es6-promise@^3.3.1
+146 verbose lock es6-promise@^3.3.1 /home/vagrant/.npm/7c143b3c-es6-promise-3-3-1.lock
+147 silly addNameRange { name: 'chokidar', range: '>=1.7.0-0 <2.0.0-0', hasData: false }
+148 verbose cache add [ 'ignore-by-default@^1.0.1', null ]
+149 verbose cache add name=undefined spec="ignore-by-default@^1.0.1" args=["ignore-by-default@^1.0.1",null]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: 'ignore-by-default@^1.0.1',
+150 verbose parsed url   path: 'ignore-by-default@^1.0.1',
+150 verbose parsed url   href: 'ignore-by-default@^1.0.1' }
+151 verbose cache add name="ignore-by-default" spec="^1.0.1" args=["ignore-by-default","^1.0.1"]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: '^1.0.1',
+152 verbose parsed url   path: '^1.0.1',
+152 verbose parsed url   href: '^1.0.1' }
+153 verbose addNamed [ 'ignore-by-default', '^1.0.1' ]
+154 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+155 silly lockFile 2835a20a-ignore-by-default-1-0-1 ignore-by-default@^1.0.1
+156 verbose lock ignore-by-default@^1.0.1 /home/vagrant/.npm/2835a20a-ignore-by-default-1-0-1.lock
+157 silly addNameRange { name: 'debug', range: '>=2.6.8-0 <3.0.0-0', hasData: false }
+158 silly addNameRange { name: 'es6-promise',
+158 silly addNameRange   range: '>=3.3.1-0 <4.0.0-0',
+158 silly addNameRange   hasData: false }
+159 verbose cache add [ 'lodash.defaults@^3.1.2', null ]
+160 verbose cache add name=undefined spec="lodash.defaults@^3.1.2" args=["lodash.defaults@^3.1.2",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'lodash.defaults@^3.1.2',
+161 verbose parsed url   path: 'lodash.defaults@^3.1.2',
+161 verbose parsed url   href: 'lodash.defaults@^3.1.2' }
+162 verbose cache add name="lodash.defaults" spec="^3.1.2" args=["lodash.defaults","^3.1.2"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '^3.1.2',
+163 verbose parsed url   path: '^3.1.2',
+163 verbose parsed url   href: '^3.1.2' }
+164 verbose addNamed [ 'lodash.defaults', '^3.1.2' ]
+165 verbose addNamed [ null, '>=3.1.2-0 <4.0.0-0' ]
+166 silly lockFile 28a2b61b-lodash-defaults-3-1-2 lodash.defaults@^3.1.2
+167 verbose lock lodash.defaults@^3.1.2 /home/vagrant/.npm/28a2b61b-lodash-defaults-3-1-2.lock
+168 silly addNameRange { name: 'ignore-by-default',
+168 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+168 silly addNameRange   hasData: false }
+169 silly addNameRange { name: 'lodash.defaults',
+169 silly addNameRange   range: '>=3.1.2-0 <4.0.0-0',
+169 silly addNameRange   hasData: false }
+170 verbose cache add [ 'minimatch@^3.0.4', null ]
+171 verbose cache add name=undefined spec="minimatch@^3.0.4" args=["minimatch@^3.0.4",null]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: 'minimatch@^3.0.4',
+172 verbose parsed url   path: 'minimatch@^3.0.4',
+172 verbose parsed url   href: 'minimatch@^3.0.4' }
+173 verbose cache add name="minimatch" spec="^3.0.4" args=["minimatch","^3.0.4"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '^3.0.4',
+174 verbose parsed url   path: '^3.0.4',
+174 verbose parsed url   href: '^3.0.4' }
+175 verbose addNamed [ 'minimatch', '^3.0.4' ]
+176 verbose addNamed [ null, '>=3.0.4-0 <4.0.0-0' ]
+177 silly lockFile 69284b07-minimatch-3-0-4 minimatch@^3.0.4
+178 verbose lock minimatch@^3.0.4 /home/vagrant/.npm/69284b07-minimatch-3-0-4.lock
+179 verbose registry.get chokidar not expired, no request
+180 silly addNameRange number 2 { name: 'chokidar', range: '>=1.7.0-0 <2.0.0-0', hasData: true }
+181 silly addNameRange versions [ 'chokidar',
+181 silly addNameRange   [ '0.1.1',
+181 silly addNameRange     '0.2.0',
+181 silly addNameRange     '0.2.1',
+181 silly addNameRange     '0.2.2',
+181 silly addNameRange     '0.2.3',
+181 silly addNameRange     '0.2.4',
+181 silly addNameRange     '0.2.5',
+181 silly addNameRange     '0.2.6',
+181 silly addNameRange     '0.3.0',
+181 silly addNameRange     '0.4.0',
+181 silly addNameRange     '0.5.0',
+181 silly addNameRange     '0.5.1',
+181 silly addNameRange     '0.5.2',
+181 silly addNameRange     '0.5.3',
+181 silly addNameRange     '0.6.0',
+181 silly addNameRange     '0.6.1',
+181 silly addNameRange     '0.6.2',
+181 silly addNameRange     '0.6.3',
+181 silly addNameRange     '0.7.0',
+181 silly addNameRange     '0.7.1',
+181 silly addNameRange     '0.8.0',
+181 silly addNameRange     '0.8.1',
+181 silly addNameRange     '0.8.2',
+181 silly addNameRange     '0.8.3',
+181 silly addNameRange     '0.8.4',
+181 silly addNameRange     '0.9.0',
+181 silly addNameRange     '0.10.0',
+181 silly addNameRange     '0.10.1',
+181 silly addNameRange     '0.10.2',
+181 silly addNameRange     '0.10.3',
+181 silly addNameRange     '0.10.4',
+181 silly addNameRange     '0.10.5',
+181 silly addNameRange     '0.10.6',
+181 silly addNameRange     '0.10.7',
+181 silly addNameRange     '0.10.8',
+181 silly addNameRange     '0.10.9',
+181 silly addNameRange     '0.11.0',
+181 silly addNameRange     '0.11.1',
+181 silly addNameRange     '0.12.0',
+181 silly addNameRange     '0.12.1',
+181 silly addNameRange     '0.12.2',
+181 silly addNameRange     '0.12.3',
+181 silly addNameRange     '0.12.4',
+181 silly addNameRange     '0.12.5',
+181 silly addNameRange     '0.12.6',
+181 silly addNameRange     '1.0.0-rc1',
+181 silly addNameRange     '1.0.0-rc1.1',
+181 silly addNameRange     '1.0.0-rc2',
+181 silly addNameRange     '1.0.0-rc3',
+181 silly addNameRange     '1.0.0-rc4',
+181 silly addNameRange     '1.0.0-rc5',
+181 silly addNameRange     '1.0.0',
+181 silly addNameRange     '1.0.1',
+181 silly addNameRange     '1.0.2',
+181 silly addNameRange     '1.0.3',
+181 silly addNameRange     '1.0.4',
+181 silly addNameRange     '1.0.5',
+181 silly addNameRange     '1.0.6',
+181 silly addNameRange     '1.1.0',
+181 silly addNameRange     '1.2.0',
+181 silly addNameRange     '1.3.0',
+181 silly addNameRange     '1.4.0',
+181 silly addNameRange     '1.4.1',
+181 silly addNameRange     '1.4.2',
+181 silly addNameRange     '1.4.3',
+181 silly addNameRange     '1.5.0',
+181 silly addNameRange     '1.5.1',
+181 silly addNameRange     '1.5.2',
+181 silly addNameRange     '1.6.0',
+181 silly addNameRange     '1.6.1',
+181 silly addNameRange     '1.7.0' ] ]
+182 verbose addNamed [ 'chokidar', '1.7.0' ]
+183 verbose addNamed [ '1.7.0', '1.7.0' ]
+184 silly lockFile 140b74e2-chokidar-1-7-0 chokidar@1.7.0
+185 verbose lock chokidar@1.7.0 /home/vagrant/.npm/140b74e2-chokidar-1-7-0.lock
+186 verbose cache add [ 'undefsafe@0.0.3', null ]
+187 verbose cache add name=undefined spec="undefsafe@0.0.3" args=["undefsafe@0.0.3",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'undefsafe@0.0.3',
+188 verbose parsed url   path: 'undefsafe@0.0.3',
+188 verbose parsed url   href: 'undefsafe@0.0.3' }
+189 verbose cache add name="undefsafe" spec="0.0.3" args=["undefsafe","0.0.3"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '0.0.3',
+190 verbose parsed url   path: '0.0.3',
+190 verbose parsed url   href: '0.0.3' }
+191 verbose addNamed [ 'undefsafe', '0.0.3' ]
+192 verbose addNamed [ '0.0.3', '0.0.3' ]
+193 silly lockFile 80ee6b50-undefsafe-0-0-3 undefsafe@0.0.3
+194 verbose lock undefsafe@0.0.3 /home/vagrant/.npm/80ee6b50-undefsafe-0-0-3.lock
+195 verbose cache add [ 'touch@^3.1.0', null ]
+196 verbose cache add name=undefined spec="touch@^3.1.0" args=["touch@^3.1.0",null]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: 'touch@^3.1.0',
+197 verbose parsed url   path: 'touch@^3.1.0',
+197 verbose parsed url   href: 'touch@^3.1.0' }
+198 verbose cache add name="touch" spec="^3.1.0" args=["touch","^3.1.0"]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: '^3.1.0',
+199 verbose parsed url   path: '^3.1.0',
+199 verbose parsed url   href: '^3.1.0' }
+200 verbose addNamed [ 'touch', '^3.1.0' ]
+201 verbose addNamed [ null, '>=3.1.0-0 <4.0.0-0' ]
+202 silly lockFile caa93724-touch-3-1-0 touch@^3.1.0
+203 verbose lock touch@^3.1.0 /home/vagrant/.npm/caa93724-touch-3-1-0.lock
+204 verbose cache add [ 'update-notifier@^2.3.0', null ]
+205 verbose cache add name=undefined spec="update-notifier@^2.3.0" args=["update-notifier@^2.3.0",null]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'update-notifier@^2.3.0',
+206 verbose parsed url   path: 'update-notifier@^2.3.0',
+206 verbose parsed url   href: 'update-notifier@^2.3.0' }
+207 verbose cache add name="update-notifier" spec="^2.3.0" args=["update-notifier","^2.3.0"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '^2.3.0',
+208 verbose parsed url   path: '^2.3.0',
+208 verbose parsed url   href: '^2.3.0' }
+209 verbose addNamed [ 'update-notifier', '^2.3.0' ]
+210 verbose addNamed [ null, '>=2.3.0-0 <3.0.0-0' ]
+211 silly lockFile 32a3fd81-update-notifier-2-3-0 update-notifier@^2.3.0
+212 verbose lock update-notifier@^2.3.0 /home/vagrant/.npm/32a3fd81-update-notifier-2-3-0.lock
+213 verbose registry.get debug not expired, no request
+214 silly addNameRange number 2 { name: 'debug', range: '>=2.6.8-0 <3.0.0-0', hasData: true }
+215 silly addNameRange versions [ 'debug',
+215 silly addNameRange   [ '0.0.1',
+215 silly addNameRange     '0.1.0',
+215 silly addNameRange     '0.2.0',
+215 silly addNameRange     '0.3.0',
+215 silly addNameRange     '0.4.0',
+215 silly addNameRange     '0.4.1',
+215 silly addNameRange     '0.5.0',
+215 silly addNameRange     '0.6.0',
+215 silly addNameRange     '0.7.0',
+215 silly addNameRange     '0.7.1',
+215 silly addNameRange     '0.7.2',
+215 silly addNameRange     '0.7.3',
+215 silly addNameRange     '0.7.4',
+215 silly addNameRange     '0.8.0',
+215 silly addNameRange     '0.8.1',
+215 silly addNameRange     '1.0.0',
+215 silly addNameRange     '1.0.1',
+215 silly addNameRange     '1.0.2',
+215 silly addNameRange     '1.0.3',
+215 silly addNameRange     '1.0.4',
+215 silly addNameRange     '2.0.0',
+215 silly addNameRange     '2.1.0',
+215 silly addNameRange     '2.1.1',
+215 silly addNameRange     '2.1.2',
+215 silly addNameRange     '2.1.3',
+215 silly addNameRange     '2.2.0',
+215 silly addNameRange     '2.3.0',
+215 silly addNameRange     '2.3.1',
+215 silly addNameRange     '2.3.2',
+215 silly addNameRange     '2.3.3',
+215 silly addNameRange     '2.4.0',
+215 silly addNameRange     '2.4.1',
+215 silly addNameRange     '2.4.2',
+215 silly addNameRange     '2.4.3',
+215 silly addNameRange     '2.4.4',
+215 silly addNameRange     '2.4.5',
+215 silly addNameRange     '2.5.0',
+215 silly addNameRange     '2.5.1',
+215 silly addNameRange     '2.5.2',
+215 silly addNameRange     '2.6.0',
+215 silly addNameRange     '2.6.1',
+215 silly addNameRange     '2.6.2',
+215 silly addNameRange     '2.6.3',
+215 silly addNameRange     '2.6.4',
+215 silly addNameRange     '2.6.5',
+215 silly addNameRange     '2.6.6',
+215 silly addNameRange     '2.6.7',
+215 silly addNameRange     '2.6.8',
+215 silly addNameRange     '1.0.5',
+215 silly addNameRange     '3.0.0',
+215 silly addNameRange     '3.0.1',
+215 silly addNameRange     '2.6.9',
+215 silly addNameRange     '3.1.0' ] ]
+216 verbose addNamed [ 'debug', '2.6.9' ]
+217 verbose addNamed [ '2.6.9', '2.6.9' ]
+218 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+219 verbose lock debug@2.6.9 /home/vagrant/.npm/3d3e1ad7-debug-2-6-9.lock
+220 silly addNameRange { name: 'minimatch',
+220 silly addNameRange   range: '>=3.0.4-0 <4.0.0-0',
+220 silly addNameRange   hasData: false }
+221 verbose registry.get es6-promise not expired, no request
+222 silly addNameRange number 2 { name: 'es6-promise',
+222 silly addNameRange   range: '>=3.3.1-0 <4.0.0-0',
+222 silly addNameRange   hasData: true }
+223 silly addNameRange versions [ 'es6-promise',
+223 silly addNameRange   [ '0.1.0',
+223 silly addNameRange     '0.1.1',
+223 silly addNameRange     '0.1.2',
+223 silly addNameRange     '1.0.0',
+223 silly addNameRange     '2.0.0',
+223 silly addNameRange     '2.0.1',
+223 silly addNameRange     '2.1.0',
+223 silly addNameRange     '2.1.1',
+223 silly addNameRange     '2.2.0',
+223 silly addNameRange     '2.3.0',
+223 silly addNameRange     '3.0.0',
+223 silly addNameRange     '3.0.1',
+223 silly addNameRange     '3.0.2',
+223 silly addNameRange     '3.1.2',
+223 silly addNameRange     '3.2.1',
+223 silly addNameRange     '3.3.0',
+223 silly addNameRange     '3.3.1',
+223 silly addNameRange     '4.0.0',
+223 silly addNameRange     '4.0.1',
+223 silly addNameRange     '4.0.2',
+223 silly addNameRange     '4.0.3',
+223 silly addNameRange     '4.0.4',
+223 silly addNameRange     '4.0.5',
+223 silly addNameRange     '4.1.0',
+223 silly addNameRange     '4.1.1' ] ]
+224 verbose addNamed [ 'es6-promise', '3.3.1' ]
+225 verbose addNamed [ '3.3.1', '3.3.1' ]
+226 silly lockFile 183d7cb8-es6-promise-3-3-1 es6-promise@3.3.1
+227 verbose lock es6-promise@3.3.1 /home/vagrant/.npm/183d7cb8-es6-promise-3-3-1.lock
+228 silly addNameRange { name: 'touch', range: '>=3.1.0-0 <4.0.0-0', hasData: false }
+229 silly addNameRange { name: 'update-notifier',
+229 silly addNameRange   range: '>=2.3.0-0 <3.0.0-0',
+229 silly addNameRange   hasData: false }
+230 verbose registry.get ignore-by-default not expired, no request
+231 silly addNameRange number 2 { name: 'ignore-by-default',
+231 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+231 silly addNameRange   hasData: true }
+232 silly addNameRange versions [ 'ignore-by-default', [ '1.0.0', '1.0.1' ] ]
+233 verbose addNamed [ 'ignore-by-default', '1.0.1' ]
+234 verbose addNamed [ '1.0.1', '1.0.1' ]
+235 silly lockFile 545ff2ee-ignore-by-default-1-0-1 ignore-by-default@1.0.1
+236 verbose lock ignore-by-default@1.0.1 /home/vagrant/.npm/545ff2ee-ignore-by-default-1-0-1.lock
+237 verbose registry.get lodash.defaults not expired, no request
+238 silly addNameRange number 2 { name: 'lodash.defaults',
+238 silly addNameRange   range: '>=3.1.2-0 <4.0.0-0',
+238 silly addNameRange   hasData: true }
+239 silly addNameRange versions [ 'lodash.defaults',
+239 silly addNameRange   [ '2.0.0',
+239 silly addNameRange     '2.1.0',
+239 silly addNameRange     '2.2.0',
+239 silly addNameRange     '2.2.1',
+239 silly addNameRange     '2.3.0',
+239 silly addNameRange     '2.4.0',
+239 silly addNameRange     '2.4.1',
+239 silly addNameRange     '3.0.0',
+239 silly addNameRange     '3.1.0',
+239 silly addNameRange     '3.1.1',
+239 silly addNameRange     '3.1.2',
+239 silly addNameRange     '4.0.0',
+239 silly addNameRange     '4.0.1',
+239 silly addNameRange     '4.1.0',
+239 silly addNameRange     '4.2.0' ] ]
+240 verbose addNamed [ 'lodash.defaults', '3.1.2' ]
+241 verbose addNamed [ '3.1.2', '3.1.2' ]
+242 silly lockFile c6a9f921-lodash-defaults-3-1-2 lodash.defaults@3.1.2
+243 verbose lock lodash.defaults@3.1.2 /home/vagrant/.npm/c6a9f921-lodash-defaults-3-1-2.lock
+244 verbose registry.get minimatch not expired, no request
+245 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.4-0 <4.0.0-0', hasData: true }
+246 silly addNameRange versions [ 'minimatch',
+246 silly addNameRange   [ '0.0.1',
+246 silly addNameRange     '0.0.2',
+246 silly addNameRange     '0.0.4',
+246 silly addNameRange     '0.0.5',
+246 silly addNameRange     '0.1.1',
+246 silly addNameRange     '0.1.2',
+246 silly addNameRange     '0.1.3',
+246 silly addNameRange     '0.1.4',
+246 silly addNameRange     '0.1.5',
+246 silly addNameRange     '0.2.0',
+246 silly addNameRange     '0.2.2',
+246 silly addNameRange     '0.2.3',
+246 silly addNameRange     '0.2.4',
+246 silly addNameRange     '0.2.5',
+246 silly addNameRange     '0.2.6',
+246 silly addNameRange     '0.2.7',
+246 silly addNameRange     '0.2.8',
+246 silly addNameRange     '0.2.9',
+246 silly addNameRange     '0.2.10',
+246 silly addNameRange     '0.2.11',
+246 silly addNameRange     '0.2.12',
+246 silly addNameRange     '0.2.13',
+246 silly addNameRange     '0.2.14',
+246 silly addNameRange     '0.3.0',
+246 silly addNameRange     '0.4.0',
+246 silly addNameRange     '1.0.0',
+246 silly addNameRange     '2.0.0',
+246 silly addNameRange     '2.0.1',
+246 silly addNameRange     '2.0.2',
+246 silly addNameRange     '2.0.3',
+246 silly addNameRange     '2.0.4',
+246 silly addNameRange     '2.0.5',
+246 silly addNameRange     '2.0.6',
+246 silly addNameRange     '2.0.7',
+246 silly addNameRange     '2.0.8',
+246 silly addNameRange     '2.0.9',
+246 silly addNameRange     '2.0.10',
+246 silly addNameRange     '3.0.0',
+246 silly addNameRange     '3.0.2',
+246 silly addNameRange     '3.0.3',
+246 silly addNameRange     '3.0.4' ] ]
+247 verbose addNamed [ 'minimatch', '3.0.4' ]
+248 verbose addNamed [ '3.0.4', '3.0.4' ]
+249 silly lockFile 96620a00-minimatch-3-0-4 minimatch@3.0.4
+250 verbose lock minimatch@3.0.4 /home/vagrant/.npm/96620a00-minimatch-3-0-4.lock
+251 verbose registry.get undefsafe/0.0.3 not expired, no request
+252 verbose registry.get touch not expired, no request
+253 silly addNameRange number 2 { name: 'touch', range: '>=3.1.0-0 <4.0.0-0', hasData: true }
+254 silly addNameRange versions [ 'touch',
+254 silly addNameRange   [ '0.0.1',
+254 silly addNameRange     '0.0.2',
+254 silly addNameRange     '0.0.3',
+254 silly addNameRange     '0.0.4',
+254 silly addNameRange     '1.0.0',
+254 silly addNameRange     '2.0.0',
+254 silly addNameRange     '2.0.1',
+254 silly addNameRange     '2.0.2',
+254 silly addNameRange     '3.0.0',
+254 silly addNameRange     '3.1.0' ] ]
+255 verbose addNamed [ 'touch', '3.1.0' ]
+256 verbose addNamed [ '3.1.0', '3.1.0' ]
+257 silly lockFile 97c2f496-touch-3-1-0 touch@3.1.0
+258 verbose lock touch@3.1.0 /home/vagrant/.npm/97c2f496-touch-3-1-0.lock
+259 verbose registry.get update-notifier not expired, no request
+260 silly addNameRange number 2 { name: 'update-notifier',
+260 silly addNameRange   range: '>=2.3.0-0 <3.0.0-0',
+260 silly addNameRange   hasData: true }
+261 silly addNameRange versions [ 'update-notifier',
+261 silly addNameRange   [ '0.1.0',
+261 silly addNameRange     '0.1.1',
+261 silly addNameRange     '0.1.2',
+261 silly addNameRange     '0.1.3',
+261 silly addNameRange     '0.1.4',
+261 silly addNameRange     '0.1.5',
+261 silly addNameRange     '0.1.6',
+261 silly addNameRange     '0.1.7',
+261 silly addNameRange     '0.1.8',
+261 silly addNameRange     '0.1.9',
+261 silly addNameRange     '0.1.10',
+261 silly addNameRange     '0.2.0',
+261 silly addNameRange     '0.2.1',
+261 silly addNameRange     '0.2.2',
+261 silly addNameRange     '0.3.0',
+261 silly addNameRange     '0.3.1',
+261 silly addNameRange     '0.3.2',
+261 silly addNameRange     '0.4.0',
+261 silly addNameRange     '0.5.0',
+261 silly addNameRange     '0.6.0',
+261 silly addNameRange     '0.6.1',
+261 silly addNameRange     '0.6.2',
+261 silly addNameRange     '0.6.3',
+261 silly addNameRange     '0.7.0',
+261 silly addNameRange     '1.0.0',
+261 silly addNameRange     '1.0.1',
+261 silly addNameRange     '1.0.2',
+261 silly addNameRange     '1.0.3',
+261 silly addNameRange     '2.0.0',
+261 silly addNameRange     '2.1.0',
+261 silly addNameRange     '2.2.0',
+261 silly addNameRange     '2.3.0' ] ]
+262 verbose addNamed [ 'update-notifier', '2.3.0' ]
+263 verbose addNamed [ '2.3.0', '2.3.0' ]
+264 silly lockFile c4f5aa2b-update-notifier-2-3-0 update-notifier@2.3.0
+265 verbose lock update-notifier@2.3.0 /home/vagrant/.npm/c4f5aa2b-update-notifier-2-3-0.lock
+266 silly lockFile 140b74e2-chokidar-1-7-0 chokidar@1.7.0
+267 silly lockFile 140b74e2-chokidar-1-7-0 chokidar@1.7.0
+268 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+269 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+270 silly lockFile 442979f5-chokidar-1-7-0 chokidar@^1.7.0
+271 silly lockFile 442979f5-chokidar-1-7-0 chokidar@^1.7.0
+272 silly lockFile 6030e63d-debug-2-6-8 debug@^2.6.8
+273 silly lockFile 6030e63d-debug-2-6-8 debug@^2.6.8
+274 silly lockFile 183d7cb8-es6-promise-3-3-1 es6-promise@3.3.1
+275 silly lockFile 183d7cb8-es6-promise-3-3-1 es6-promise@3.3.1
+276 silly lockFile 545ff2ee-ignore-by-default-1-0-1 ignore-by-default@1.0.1
+277 silly lockFile 545ff2ee-ignore-by-default-1-0-1 ignore-by-default@1.0.1
+278 silly lockFile 7c143b3c-es6-promise-3-3-1 es6-promise@^3.3.1
+279 silly lockFile 7c143b3c-es6-promise-3-3-1 es6-promise@^3.3.1
+280 silly lockFile 2835a20a-ignore-by-default-1-0-1 ignore-by-default@^1.0.1
+281 silly lockFile 2835a20a-ignore-by-default-1-0-1 ignore-by-default@^1.0.1
+282 silly lockFile c6a9f921-lodash-defaults-3-1-2 lodash.defaults@3.1.2
+283 silly lockFile c6a9f921-lodash-defaults-3-1-2 lodash.defaults@3.1.2
+284 silly lockFile 80ee6b50-undefsafe-0-0-3 undefsafe@0.0.3
+285 silly lockFile 80ee6b50-undefsafe-0-0-3 undefsafe@0.0.3
+286 silly lockFile 28a2b61b-lodash-defaults-3-1-2 lodash.defaults@^3.1.2
+287 silly lockFile 28a2b61b-lodash-defaults-3-1-2 lodash.defaults@^3.1.2
+288 silly lockFile 96620a00-minimatch-3-0-4 minimatch@3.0.4
+289 silly lockFile 96620a00-minimatch-3-0-4 minimatch@3.0.4
+290 silly lockFile c4f5aa2b-update-notifier-2-3-0 update-notifier@2.3.0
+291 silly lockFile c4f5aa2b-update-notifier-2-3-0 update-notifier@2.3.0
+292 silly lockFile 69284b07-minimatch-3-0-4 minimatch@^3.0.4
+293 silly lockFile 69284b07-minimatch-3-0-4 minimatch@^3.0.4
+294 silly lockFile 97c2f496-touch-3-1-0 touch@3.1.0
+295 silly lockFile 97c2f496-touch-3-1-0 touch@3.1.0
+296 silly lockFile 32a3fd81-update-notifier-2-3-0 update-notifier@^2.3.0
+297 silly lockFile 32a3fd81-update-notifier-2-3-0 update-notifier@^2.3.0
+298 silly lockFile caa93724-touch-3-1-0 touch@^3.1.0
+299 silly lockFile caa93724-touch-3-1-0 touch@^3.1.0
+300 silly addNameRange { name: 'remy/pstree',
+300 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+300 silly addNameRange   hasData: false }
+301 verbose url raw remy/pstree
+302 verbose url resolving [ 'https://registry.npmjs.org/', './remy/pstree' ]
+303 verbose url resolved https://registry.npmjs.org/remy/pstree
+304 info trying registry request attempt 1 at 22:47:04
+305 http GET https://registry.npmjs.org/remy/pstree
+306 http 404 https://registry.npmjs.org/remy/pstree
+307 silly registry.get cb [ 404,
+307 silly registry.get   { 'content-type': 'application/json',
+307 silly registry.get     'cache-control': 'max-age=0',
+307 silly registry.get     'content-length': '2',
+307 silly registry.get     'accept-ranges': 'bytes',
+307 silly registry.get     date: 'Mon, 18 Dec 2017 03:47:03 GMT',
+307 silly registry.get     via: '1.1 varnish',
+307 silly registry.get     age: '0',
+307 silly registry.get     connection: 'keep-alive',
+307 silly registry.get     'x-served-by': 'cache-lax8626-LAX',
+307 silly registry.get     'x-cache': 'MISS',
+307 silly registry.get     'x-cache-hits': '0',
+307 silly registry.get     'x-timer': 'S1513568824.630796,VS0,VE180',
+307 silly registry.get     vary: 'Accept-Encoding' } ]
+308 silly addNameRange number 2 { name: 'remy/pstree',
+308 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+308 silly addNameRange   hasData: true }
+309 silly addNameRange versions [ undefined, [] ]
+310 error TypeError: Cannot read property 'latest' of undefined
+310 error     at next (/usr/share/npm/lib/cache.js:687:35)
+310 error     at /usr/share/npm/lib/cache.js:675:5
+310 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+310 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+310 error     at Object.oncomplete (fs.js:107:15)
+311 error If you need help, you may report this log at:
+311 error     <http://github.com/isaacs/npm/issues>
+311 error or email it to:
+311 error     <npm-@googlegroups.com>
+312 error System Linux 3.13.0-137-generic
+313 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "nodemon" "--save"
+314 error cwd /home/vagrant/workspace/Spring-Cloud-SkadiHouse/Email-Consumer-Service
+315 error node -v v0.10.25
+316 error npm -v 1.3.10
+317 error type non_object_property_load
+318 verbose exit [ 1, true ]

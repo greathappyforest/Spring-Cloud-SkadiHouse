@@ -1,0 +1,17 @@
+{
+  "name": "Email-Consumer-Service",
+  "version": "0.0.0",
+  "description": "",
+  "main": "receive.js",
+  "scripts": {
+    "start": "nodemon receive.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "node-json2html": "^1.1.1",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^1.13.3"
+  }
+}
