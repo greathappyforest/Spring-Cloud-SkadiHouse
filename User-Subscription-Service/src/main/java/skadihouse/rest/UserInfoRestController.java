@@ -10,8 +10,6 @@ import skadihouse.domain.UserInfo;
 import skadihouse.domain.UserInfoRepository;
 import skadihouse.service.UserInfoService;
 
-import java.util.List;
-
 @RestController
 @CrossOrigin(origins = "*")
 public class UserInfoRestController {
@@ -40,10 +38,16 @@ public class UserInfoRestController {
 
     //Post
 
+//    @RequestMapping(value = "/userinfo/post", method = RequestMethod.POST)
+//    @ResponseStatus(HttpStatus.CREATED)
+//    public ArrayList<UserInfo> upload(@RequestBody List<UserInfo> userInfos){
+//        return (ArrayList<UserInfo>) this.userInfoService.saveUserInfos(userInfos);
+//    }
+
     @RequestMapping(value = "/userinfo/post", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
-    public List<UserInfo> upload(@RequestBody List<UserInfo> userInfos){
-        return this.userInfoService.saveUserInfos(userInfos);
+    public void upload(@RequestBody UserInfo userInfos){
+         this.userInfoRepository.save(userInfos);
     }
 
 

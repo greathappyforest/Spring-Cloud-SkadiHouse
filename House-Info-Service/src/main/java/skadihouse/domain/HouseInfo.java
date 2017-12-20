@@ -23,7 +23,7 @@ public class HouseInfo {
     private Integer size;
     private Integer lot;
     private Integer parking;
-    private Integer yearsBuild;
+    private Integer yearBuild;
     private Integer daysOnZillow;
     private String heating;
     private String cooling;
@@ -55,7 +55,7 @@ public class HouseInfo {
     }
     @Override
     public int hashCode() {
-        return (url!=null?url.hashCode():1)*31+yearsBuild;
+        return (url!=null?url.hashCode():1)*31+yearBuild;
     }
 
 }

@@ -123,7 +123,8 @@ let message = {
   // plaintext body
   //html:JSON.stringify(jsonObj, undefined, 2)
   //text:JSON.stringify(jsonObj, undefined, 2)
-  html:html1
+  html:'<p>Hi, </p><p>There are one or more new/updated listing(s) that meet your serach criteria. Please take a look!</p>'
+    +html1+'<br />'+ '<p>Thank you.</p>'
 };
 console.log(message)
 console.log('Sending Mail');

@@ -15,7 +15,8 @@ class houses(scrapy.Spider):
     #search_area = "fountain-valley-ca"
     #search_area = "tustin-ca"
     #search_area = "orange-ca"
-    search_area = "garden-grove-ca"
+    #search_area = "garden-grove-ca"
+    search_area = "westminster-ca"
 
     global filename
     global data
