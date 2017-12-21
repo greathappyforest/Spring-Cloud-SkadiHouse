@@ -55,6 +55,8 @@ public class ScheduledTasks {
             log.info("User: " + userinfo.getEmail() + ", total find searchResult size: " + searchResult.size());
             ObjectNode objNode = mapper.createObjectNode();
             objNode.put("email", userinfo.getEmail());
+            objNode.put("firstName", userinfo.getFirstName());
+            objNode.put("lastName", userinfo.getLastName());
 
             ArrayNode array = mapper.valueToTree(searchResult);
             objNode.putArray("searchResult").addAll(array);

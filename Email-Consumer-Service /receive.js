@@ -97,7 +97,7 @@ console.log('SMTP Configured');
             {"<>":"td","html":"${pricePerSqft}"}
           ]},
           {"<>":"tr","html":[
-              {"<>":"th","html":"Zillow Link"},
+              {"<>":"th","html":"Web Link"},
               {"<>":"td","<>":"a","href":"${url}","html":"Link"}
           ]}
       ]}
@@ -123,8 +123,8 @@ let message = {
   // plaintext body
   //html:JSON.stringify(jsonObj, undefined, 2)
   //text:JSON.stringify(jsonObj, undefined, 2)
-  html:'<p>Hi, </p><p>There are one or more new/updated listing(s) that meet your serach criteria. Please take a look!</p>'
-    +html1+'<br />'+ '<p>Thank you.</p>'
+  html:'<p>Hi '+jsonObj.firstName+', </p><p>There are one or more new/updated listing(s) that meet your serach criteria. Please take a look!</p>'
+    +html1+'<br /> <p>Thank you.</p><p>SkadiHouse</p>'
 };
 console.log(message)
 console.log('Sending Mail');

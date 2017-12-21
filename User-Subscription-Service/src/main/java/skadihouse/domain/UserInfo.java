@@ -19,6 +19,8 @@ import java.util.List;
 public class UserInfo {
     @Id
     private String id;
+    private String firstName;
+    private String lastName;
     private String email;
     private long lowPrice;
     private long highPrice;
@@ -27,12 +29,5 @@ public class UserInfo {
 //    private long zip;
     private List<PushedHouseInfo> pushedHouseInfo;
 
-
-    public UserInfo(String email, long lowPrice, long highPrice, List<String> city) {
-        this.email = email;
-        this.lowPrice = lowPrice;
-        this.highPrice = highPrice;
-        this.city = city;
-    }
 
 }
