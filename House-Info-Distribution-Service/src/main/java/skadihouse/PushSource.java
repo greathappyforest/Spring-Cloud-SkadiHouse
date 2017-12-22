@@ -1,5 +1,6 @@
 package skadihouse;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.EnableBinding;
@@ -19,11 +20,13 @@ public class PushSource {
     @Autowired
     private MessageChannel output;
 
+
     @RequestMapping(value = "/api/distributedinfos", method = RequestMethod.POST)
     public void pushMessage( String jsonString) {
         this.output.send(MessageBuilder.withPayload(jsonString).build());
         log.info("objNode output in distribution: ");
         log.info(jsonString);
     }
+
 
 }

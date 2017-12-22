@@ -3,8 +3,6 @@ var amqp = require('amqplib/callback_api');
 var nodemailer = require('nodemailer');
 var json2html = require('node-json2html');
 
-
-
   amqp.connect('amqp://localhost', function(err, conn) {
     conn.createChannel(function(err, ch) {
       var q = 'binder.distributedinfos';
@@ -20,9 +18,6 @@ var json2html = require('node-json2html');
       }, {noAck: true});
     });
   });
-
-
-
 
 
 function sentEmail(jsonObj ){

@@ -1,5 +1,6 @@
 package skadihouse;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -20,6 +21,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+
 @Component
 public class ScheduledTasks {
 
@@ -29,8 +31,16 @@ public class ScheduledTasks {
 
     @Autowired
     private PushSource pushSource;
+//    @Autowired
+//    private RestTemplate restTemplate;
+//    @Autowired
+//    private ObjectMapper mapper;
+
 
     @Scheduled(fixedRate = 60000)
+//    @Scheduled(fixedRate = 1000)
+
+
     public void pushScheduler() throws IOException {
         log.info("The time is now {}", dateFormat.format(new Date()));
         String userInfoUri = "http://127.0.0.1:9001/userinfo/get";
@@ -41,33 +51,43 @@ public class ScheduledTasks {
         });
 
         for (UserInfo userinfo : userinfos) {
-            ArrayList<HouseInfo> searchResult = new ArrayList<HouseInfo>();
-            long highPrice = userinfo.getHighPrice();
-            long lowPrice = userinfo.getLowPrice();
-            List<String> cities = userinfo.getCity();
 
-            for (String city : cities) {
-                String subscribedUrl = "http://127.0.0.1:9000//houseinfo/get/subscribed/3/" + city + "/" + lowPrice + "/" + highPrice + "?size=100";
-                ArrayList<HouseInfo> result = (ArrayList<HouseInfo>) restTemplate.getForObject(subscribedUrl, Map.class).get("content");
-                searchResult.addAll(result);
-                log.info("Search for city: " + city + ". Find searchResult size: " + searchResult.size());
-            }
-            log.info("User: " + userinfo.getEmail() + ", total find searchResult size: " + searchResult.size());
-            ObjectNode objNode = mapper.createObjectNode();
-            objNode.put("email", userinfo.getEmail());
-            objNode.put("firstName", userinfo.getFirstName());
-            objNode.put("lastName", userinfo.getLastName());
-
-            ArrayNode array = mapper.valueToTree(searchResult);
-            objNode.putArray("searchResult").addAll(array);
-            String jsonString = mapper.writeValueAsString(objNode);
-
-            pushSource.pushMessage(jsonString);
+            pushSource.pushMessage(createHouseInfoListJsonString(userinfo));
           //  System.out.println(objNode);
         }
 
 
     }
+    //@HystrixCommand(fallbackMethod = "getHouseInfoListFallback")
+    public String createHouseInfoListJsonString(UserInfo userinfo ) throws JsonProcessingException {
+        RestTemplate restTemplate = new RestTemplate();
+        ObjectMapper mapper = new ObjectMapper();
+        ArrayList<HouseInfo> searchResult = new ArrayList<HouseInfo>();
+        long highPrice = userinfo.getHighPrice();
+        long lowPrice = userinfo.getLowPrice();
+        List<String> cities = userinfo.getCity();
+
+        for (String city : cities) {
+            String subscribedUrl = "http://127.0.0.1:9000//houseinfo/get/subscribed/3/" + city + "/" + lowPrice + "/" + highPrice + "?size=100";
+            ArrayList<HouseInfo> result = (ArrayList<HouseInfo>) restTemplate.getForObject(subscribedUrl, Map.class).get("content");
+            searchResult.addAll(result);
+            log.info("Search for city: " + city + ". Find searchResult size: " + searchResult.size());
+        }
+        log.info("User: " + userinfo.getEmail() + ", total find searchResult size: " + searchResult.size());
+        ObjectNode objNode = mapper.createObjectNode();
+        objNode.put("email", userinfo.getEmail());
+        objNode.put("firstName", userinfo.getFirstName());
+        objNode.put("lastName", userinfo.getLastName());
+
+        ArrayNode array = mapper.valueToTree(searchResult);
+        objNode.putArray("searchResult").addAll(array);
+        return mapper.writeValueAsString(objNode);
+
+    }
+
+//    public void getHouseInfoListFallback(UserInfo userinfo) {
+//        log.error("Hystrix Fallback Method. Unable to get message from house-Info-Service.");
+//    }
 
 
 }
