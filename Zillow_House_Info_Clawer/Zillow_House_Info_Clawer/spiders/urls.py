@@ -10,13 +10,12 @@ class urls(scrapy.Spider):
     #search_area = "san-diego-ca"
     #search_area = "san-jose-ca"
     #search_area = "lake-forest-ca"
-    #search_area = "90025"
     #search_area = "pasadena-ca"
     #search_area = "fountain-valley-ca"
     #search_area = "tustin-ca"
     #search_area = "orange-ca"
-    #search_area = "garden-grove-ca"
-    search_area = "westminster-ca"
+    search_area = "garden-grove-ca"
+    #search_area = "westminster-ca"
    
     filename = 'data/'+search_area +'-href.txt'
   

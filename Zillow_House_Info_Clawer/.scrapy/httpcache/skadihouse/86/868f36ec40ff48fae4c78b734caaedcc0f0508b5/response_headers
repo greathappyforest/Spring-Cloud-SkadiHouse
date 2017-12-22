@@ -1,0 +1,11 @@
+Via: 1.1 www.zillow.com, 1.1 990c804118e679d7ea0f4d3ca3cc4534.cloudfront.net (CloudFront)
+X-Cache: Miss from cloudfront
+Set-Cookie: AWSALB=Ina7L14vJO9M/auucV61cuNYdutIEM/WBj4lvxGexBvMc6fR4AJnJY82wyV+b/s+r3kNU66HEE8B96QUEPRouXKA+fCJfUDJXlLuKLTVTRA5sXmpDxeV/DZptunz; Expires=Thu, 28 Dec 2017 23:25:42 GMT; Path=/
+Set-Cookie: JSESSIONID=CE4A37AC643FABF661A177AE7ABDCFBF; Path=/; HttpOnly
+Expires: Thu, 04 Jan 2018 23:25:42 GMT
+Vary: User-Agent
+Server: Apache-Coyote/1.1
+X-Amz-Cf-Id: WxCDouSWnNgMiKuhrkrZzYCRjwiBrvVgV4zADtiXmGSxtBjmIdRshw==
+Location: //www.zillow.com/homes/for_sale/westminster-ca/90_days/3_p/0_mmm/
+Cache-Control: max-age=1209600
+Date: Thu, 21 Dec 2017 23:25:42 GMT

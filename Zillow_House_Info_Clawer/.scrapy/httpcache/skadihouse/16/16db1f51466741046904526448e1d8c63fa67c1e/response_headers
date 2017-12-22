@@ -1,0 +1,15 @@
+X-Requested-Session: CE4A37AC643FABF661A177AE7ABDCFBF
+X-Cache: Miss from cloudfront
+X-Internal-Host: 012
+Set-Cookie: AWSALB=QlLQQTBEc1QI3/POB62l1bRwM4SxOuG1K+eMG1rkthlUImuU+9nUnQEASyspEvf/bPCmGcPvFRCZDYY/583hIr2SypSUWC8mPEKN5JLQxnyRv+DkJJXywai0nEB+; Expires=Thu, 28 Dec 2017 23:25:44 GMT; Path=/
+Set-Cookie: search=6|1516490744842%7Cregion%3Dwestminster-ca%26rect%3D33.774115%252C-117.944627%252C33.720127%252C-118.049829%26p%3D3%26days%3D90%26fs%3D1%26fr%3D0%26mmm%3D0%26rs%3D0%26ah%3D0%09%01%0934780%09%09%092%090%09US_%09; Domain=.zillow.com; Expires=Wed, 22-Dec-2027 11:25:44 GMT; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Vary: User-Agent
+Server: Apache-Coyote/1.1
+Via: 1.1 www.zillow.com, 1.1 9767e262e4af15c8d83a726bb0f44fa5.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6V_aCYPEy-d-V-hMXFiaz0-Z8HcbchQaTvVDOvQbLv2X5jL3Nzkubg==
+Location: https://www.zillow.com:443/homes/for_sale/westminster-ca/90_days/0_mmm
+Cache-Control: no-cache
+Date: Thu, 21 Dec 2017 23:25:44 GMT
+X-Frame-Options: deny
+Content-Type: text/html;charset=UTF-8
