@@ -51,7 +51,6 @@ class SkadihouseSpider(scrapy.Spider):
         hrefs= response.xpath("//*[@id='list-results']/div/ul/li/article/div/a/@href").extract()
         for href in hrefs:
             url = urlparse.urljoin('https://www.zillow.com',href)
-            print '1111111111111111111111111111'
             print url
             yield scrapy.Request(url=url, callback=self.url_content_parse,headers=header)  
     
