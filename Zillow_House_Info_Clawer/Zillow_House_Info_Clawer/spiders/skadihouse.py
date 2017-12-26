@@ -4,6 +4,9 @@ import scrapy
 import json
 import re
 import urlparse
+import time
+import datetime
+
 
 
 header ={
@@ -14,32 +17,21 @@ header ={
 'accept-encoding':'gzip, deflate, br',
 'accept-language':'en-US,en;q=0.9',
 'cache-control':'max-age=0',
-'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
+# 'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
 }
 
 
 class SkadihouseSpider(scrapy.Spider):
     name = 'skadihouse'
     allowed_domains = ['zillow.com']
-    # search_area=[
-    # 'san-jose-ca',
-    # # 'westminster-ca',
-    # # 'san-diego-ca',
-    # # 'orange-ca',
-    # # 'irvine-ca',
-    # # 'los-angeles-ca',
-    # # 'lake-forest-ca',
-    # # 'pasadena-ca',
-    # # 'fountain-valley-ca',
-    # # 'tustin-ca',
-    # # 'garden-grove-ca'
-    # ]
+  
     search_area = []
     with open('search_area.txt') as f:
+    #with open('test.txt') as f:
         for line in f:
             area_code = line.rstrip('\n')
             search_area.append(area_code)
-        print search_area
+      # print search_area
 
 
     start_urls= []
@@ -191,6 +183,8 @@ class SkadihouseSpider(scrapy.Spider):
         else:
             pricePerSqft = 0
 
+        ts = time.time()
+        timeStamp = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
         pat = ".*captchaperimeterx.*"
         if bool(re.search(pat,url)):
             print url
@@ -215,5 +209,6 @@ class SkadihouseSpider(scrapy.Spider):
             item['description'] = description
             item['daysOnZillow'] =daysOnZillow
             item['pricePerSqft'] = pricePerSqft
+            item['lastUpdated']= timeStamp
             yield item
 

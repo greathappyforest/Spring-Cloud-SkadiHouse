@@ -29,3 +29,4 @@ class ZillowHouseInfoClawerItem(scrapy.Item):
     description = scrapy.Field()
     daysOnZillow = scrapy.Field()
     pricePerSqft = scrapy.Field()
+    lastUpdated = scrapy.Field()
