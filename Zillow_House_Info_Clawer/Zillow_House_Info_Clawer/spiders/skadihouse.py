@@ -6,19 +6,10 @@ import re
 import urlparse
 import time
 import datetime
+from fake_useragent import UserAgent
+import time
 
 
-
-header ={
-'authority':'www.zillow.com',
-'method':'GET',
-'scheme':'https',
-'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-'accept-encoding':'gzip, deflate, br',
-'accept-language':'en-US,en;q=0.9',
-'cache-control':'max-age=0',
-# 'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
-}
 
 
 class SkadihouseSpider(scrapy.Spider):
@@ -40,10 +31,26 @@ class SkadihouseSpider(scrapy.Spider):
             start_urls.append('https://www.zillow.com/homes/for_sale/'+item+'/90_days/'+str(i+1)+'_p/0_mmm')
 
     def parse(self, response):
+        
         hrefs= response.xpath("//*[@id='list-results']/div/ul/li/article/div/a/@href").extract()
         for href in hrefs:
             url = urlparse.urljoin('https://www.zillow.com',href)
-            print url
+            print url     
+            user_agent = UserAgent().random
+            self.logger.info("RANDOM user_agent = %s", user_agent)
+            header ={
+            'authority':'www.zillow.com',
+            'method':'GET',
+            'path':str(href),
+            'scheme':'https',
+            'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'accept-encoding':'gzip, deflate, br',
+            'accept-language':'en,zh-CN;q=0.8,zh;q=0.6',
+            'upgrade-insecure-requests':'1',
+            'user-agent':user_agent
+            }
+            self.logger.info("Header: %s", header)
+            time.sleep(2)
             yield scrapy.Request(url=url, callback=self.url_content_parse,headers=header)  
     
     def url_content_parse(self,response):
