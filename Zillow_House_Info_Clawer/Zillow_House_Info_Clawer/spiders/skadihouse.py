@@ -47,7 +47,7 @@ class SkadihouseSpider(scrapy.Spider):
             'accept-encoding':'gzip, deflate, br',
             'accept-language':'en,zh-CN;q=0.8,zh;q=0.6',
             'upgrade-insecure-requests':'1',
-            'user-agent':user_agent
+            'user-agent':str(user_agent)
             }
             self.logger.info("Header: %s", header)
             time.sleep(2)
