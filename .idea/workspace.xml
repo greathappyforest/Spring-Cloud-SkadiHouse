@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eafed13f-e974-4503-ab9a-f5029f4cccd4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/House-Info-Distribution-Service/target/classes/skadihouse/PushSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/House-Info-Distribution-Service/target/classes/skadihouse/ScheduledTasks$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/House-Info-Distribution-Service/target/classes/skadihouse/ScheduledTasks.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform/eureka/target/classes/eureka/EurekaApplication.class" afterPath="$PROJECT_DIR$/platform/eureka/target/classes/eureka/EurekaApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Email-Consumer-Service /receive.js" afterPath="$PROJECT_DIR$/Email-Consumer-Service /receive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java" afterPath="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/ScheduledTasks.java" afterPath="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/ScheduledTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/rest/HouseInfoRestController.java" afterPath="$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/rest/HouseInfoRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/pipelines.py" afterPath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/settings.py" afterPath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/spiders/skadihouse.py" afterPath="$PROJECT_DIR$/Zillow_House_Info_Clawer/Zillow_House_Info_Clawer/spiders/skadihouse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/House-Info-Distribution-Service/target/classes/" />
     <ignored path="$PROJECT_DIR$/User-Subscription-Service/target/classes/" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="HouseInfoDistributionServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/HouseInfoDistributionServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
       <file leaf-file-name="PushSource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,21 +71,40 @@
       <file leaf-file-name="HouseInfoRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/rest/HouseInfoRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="1071">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduledTasks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScheduledTasks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/ScheduledTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="504">
+              <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseInfoServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/HouseInfoServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="79" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2328#2339#0" expanded="true" />
+                <marker date="1514543840061" expanded="true" signature="21:72" ph="spring: &lt;1 key&gt;" />
               </folding>
             </state>
           </provider>
@@ -95,27 +114,7 @@
         <entry file="file://$PROJECT_DIR$/platform/hystrix-dashboard/src/main/java/hystrixdashboard/HystrixDashboardApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/java/eureka/EurekaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,18 +123,18 @@
       <file leaf-file-name="UserSubscriptionServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/java/skadihouse/UserSubscriptionServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/java/skadihouse/service/Impl/UserInfoServiceImpl.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" column="79" lean-forward="false" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -193,12 +192,10 @@
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/houseInfo/domain/HouseLocation.java" />
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/houseInfo/domain/HouseFeatures.java" />
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/houseInfo/HouseInfoServiceApplication.java" />
-        <option value="$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/houseInfo/service/houseInfoPostService.java" />
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/houseInfo/service/impl/houseInfoPostServiceImpl.java" />
         <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/java/subscription/UserSubscriptionServiceApplication.java" />
         <option value="$PROJECT_DIR$/User-Subscription-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/java/subscription/domain/PushedHouseInfo.java" />
         <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/java/subscription/domain/HouseInfoRepository.java" />
         <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/java/subscription/domain/UserInfo.java" />
@@ -227,6 +224,8 @@
         <option value="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java" />
         <option value="$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/rest/HouseInfoRestController.java" />
         <option value="$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/ScheduledTasks.java" />
+        <option value="$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -272,8 +271,8 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,37 +283,28 @@
             <path>
               <item name="SkadiHouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Cloud-SkadiHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="House-Info-Distribution-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="User-Subscription-Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SkadiHouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Cloud-SkadiHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="House-Info-Distribution-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="User-Subscription-Service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SkadiHouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Cloud-SkadiHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="House-Info-Distribution-Service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SkadiHouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Cloud-SkadiHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="House-Info-Distribution-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="User-Subscription-Service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SkadiHouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring-Cloud-SkadiHouse" type="462c0819:PsiDirectoryNode" />
-              <item name="House-Info-Distribution-Service" type="462c0819:PsiDirectoryNode" />
+              <item name="User-Subscription-Service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="skadihouse" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -528,11 +518,12 @@
       <workItem from="1513792695768" duration="2479000" />
       <workItem from="1513820328763" duration="5872000" />
       <workItem from="1513973892630" duration="9358000" />
+      <workItem from="1514541118471" duration="1785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104617000" />
+    <option name="totallyTimeSpent" value="106402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +559,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21671991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -726,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -791,21 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <marker date="1513369945087" expanded="true" signature="21:72" ph="spring: &lt;1 key&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/domain/HouseInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,18 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="57" column="56" lean-forward="false" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="e#1534#1535#0" expanded="false" />
-            <element signature="e#1598#1599#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/HouseInfoServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="46" column="43" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,42 +841,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/java/skadihouse/UserSubscriptionServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/domain/PushSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/domain/PushSource.java" />
     <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/rest/HouseInfoRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="1071">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -926,7 +871,7 @@
     <entry file="file://$PROJECT_DIR$/platform/hystrix-dashboard/src/main/java/hystrixdashboard/HystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -941,8 +886,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/HouseInfoDistributionServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -951,8 +896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/PushSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,12 +906,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/House-Info-Distribution-Service/src/main/java/skadihouse/ScheduledTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="39" lean-forward="false" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="504">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/java/skadihouse/HouseInfoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/House-Info-Service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2328#2339#0" expanded="true" />
+            <marker date="1514543840061" expanded="true" signature="21:72" ph="spring: &lt;1 key&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/java/skadihouse/UserSubscriptionServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-Subscription-Service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="79" lean-forward="false" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>

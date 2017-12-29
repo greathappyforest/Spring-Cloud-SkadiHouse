@@ -5,8 +5,7 @@ spring:
     name: house-info-service
   data:
       mongodb:
-          uri: mongodb://localhost:27017
-          database: zillow_house_info
+          uri: mongodb://houseuser:helloworld@localhost:27017/zillow_house_info
   jackson:
     serialization:
       INDENT_OUTPUT: true

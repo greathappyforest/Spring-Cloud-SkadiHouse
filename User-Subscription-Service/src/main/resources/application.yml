@@ -5,8 +5,7 @@ spring:
     name: user-skadihouse-service
   data:
       mongodb:
-          uri: mongodb://localhost:27017
-          database: user_subscription
+          uri: mongodb://houseuser:helloworld@localhost:27017/zillow_house_info
   jackson:
     serialization:
       INDENT_OUTPUT: true

@@ -4,8 +4,17 @@ rabbitmq:
     - "5672:5672"
     - "15672:15672"
   restart: always
+
+
 mongodb:
-  image: mongo:3.4.4
-  ports:
-    - "27017:27017"
-  restart: always 
+    image: aashreys/mongo-auth:latest
+    environment:
+      - AUTH=yes
+      - MONGODB_ADMIN_USER=admin
+      - MONGODB_ADMIN_PASS=admin
+      - MONGODB_APPLICATION_DATABASE=zillow_house_info
+      - MONGODB_APPLICATION_USER=houseuser
+      - MONGODB_APPLICATION_PASS=helloworld
+    ports:
+      - "27017:27017"
+    restart: always 

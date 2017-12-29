@@ -7,7 +7,7 @@ import urlparse
 import time
 import datetime
 from fake_useragent import UserAgent
-import time
+from random import *
 
 
 
@@ -35,7 +35,7 @@ class SkadihouseSpider(scrapy.Spider):
         hrefs= response.xpath("//*[@id='list-results']/div/ul/li/article/div/a/@href").extract()
         for href in hrefs:
             url = urlparse.urljoin('https://www.zillow.com',href)
-            print url     
+               
             user_agent = UserAgent().random
             self.logger.info("RANDOM user_agent = %s", user_agent)
             header ={
@@ -49,10 +49,11 @@ class SkadihouseSpider(scrapy.Spider):
             'upgrade-insecure-requests':'1',
             'user-agent':str(user_agent)
             }
-            self.logger.info("Header: %s", header)
-            time.sleep(2)
+            #self.logger.info("Header: %s", header)
+            random_time = uniform(1, 2)
+            time.sleep(random_time)
+            self.logger.info("Sent request to : %s,wait: %s second.", url,random_time)  
             yield scrapy.Request(url=url, callback=self.url_content_parse,headers=header)  
-    
     def url_content_parse(self,response):
       
         # try catch extract data
