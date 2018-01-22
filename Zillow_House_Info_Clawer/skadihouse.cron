@@ -1,1 +1,1 @@
-52 17 */3 * * (/bin/sh /Spring-Cloud-SkadiHouse/Zillow_House_Info_Clawer/scrapy_start.sh)  
+0 00 */3 * * cd /Spring-Cloud-SkadiHouse/Zillow_House_Info_Clawer && /usr/bin/python get_proxy_list.py && sleep 3 && export PATH=$PATH:/usr/local/bin && scrapy crawl skadihouse >> /Spring-Cloud-SkadiHouse/Zillow_House_Info_Clawer/log/`date +\%Y-\%m-\%d_\%H:\%M:\%S-cron.log` 2>&1
