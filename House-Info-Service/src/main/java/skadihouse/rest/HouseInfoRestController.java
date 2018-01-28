@@ -85,6 +85,17 @@ public class HouseInfoRestController {
     }
 
 
+    //Fix refresh 404 with frontend router
+
+    @RequestMapping({ "/home", "/subscribe", "/unsubscribe"})
+    public void routes(HttpServletRequest request , HttpServletResponse response) {
+        request.setAttribute("routes","路由跳转");
+        try {
+            request.getRequestDispatcher("index.html").forward(request,response);
+        } catch (Exception es) {
+            log.error("路由失败",es);
+        }
+    }
 
 
 }
