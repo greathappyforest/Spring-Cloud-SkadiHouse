@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.*;
 import skadihouse.domain.HouseInfo;
 import skadihouse.domain.HouseInfoRepository;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 @Slf4j
 @RestController
 @CrossOrigin(origins = "*")
@@ -84,16 +87,15 @@ public class HouseInfoRestController {
         log.error("Hystrix Fallback Method. Unable to get HouseInfo from House-info-service.");
     }
 
-
     //Fix refresh 404 with frontend router
 
     @RequestMapping({ "/home", "/subscribe", "/unsubscribe"})
     public void routes(HttpServletRequest request , HttpServletResponse response) {
-        request.setAttribute("routes","路由跳转");
+        request.setAttribute("routes","router redirect");
         try {
             request.getRequestDispatcher("index.html").forward(request,response);
         } catch (Exception es) {
-            log.error("路由失败",es);
+            log.error("router failed",es);
         }
     }
 
