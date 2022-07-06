@@ -24,7 +24,7 @@ keyring==3.5
 launchpadlib==1.10.2
 lazr.restfulclient==0.13.3
 lazr.uri==1.0.3
-lxml==3.3.3
+lxml==4.9.1
 oauth==1.0.1
 parsel==1.2.0
 prettytable==0.7.2
