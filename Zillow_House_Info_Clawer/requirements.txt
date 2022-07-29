@@ -3,7 +3,7 @@ Landscape-Client==14.12
 PAM==0.4.2
 PyDispatcher==2.0.5
 PyYAML==3.10
-Scrapy==1.4.0
+Scrapy==2.6.2
 SecretStorage==2.0.0
 Twisted-Core==13.2.0
 Twisted-Names==13.2.0
